@@ -1,0 +1,37 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  position: relative;
+  display: flex;
+}
+
+.lines-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: visible;
+}
+
+.cell {
+  flex: 1;
+  height: 64px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.node-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  padding: 0 16px;
+}
