@@ -35,6 +35,16 @@
   border-color: #333;
 }
 
+.canvas-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  cursor: default;
+}
+
 .canvas-container {
   position: relative;
 }
@@ -43,8 +53,13 @@
   background: white;
   border: 1px solid #e0e0e0;
   border-radius: 6px;
-  cursor: default;
+  cursor: pointer;
   overflow: hidden;
+  transition: background-color 0.15s ease;
+}
+
+.cell:hover {
+  background: #f8f8f8;
 }
 
 .node-name {
