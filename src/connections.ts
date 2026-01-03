@@ -80,7 +80,10 @@ export function computeUnifiedConnections(
         const fromY = parentListPos.y + parentConnY + lineWidth / 2;
         const toX = baseLeftMargin;
         const toY = childListPos.y + childConnY + lineWidth / 2;
-        const r = LAYOUT_CONFIG.cornerRadius;
+        
+        // Clamp corner radius to available horizontal space
+        const horizontalDist = fromX - slotX;
+        const r = Math.min(LAYOUT_CONFIG.cornerRadius, horizontalDist);
 
         // 6-segment path: M, L, Q, L, Q, L
         listPath = `

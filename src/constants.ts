@@ -1,35 +1,35 @@
 import type { LayoutConfig } from "./types";
 
 export const COLORS = [
-  "#E63946", // red
-  "#F4A261", // orange
-  "#E9C46A", // yellow
-  "#2A9D8F", // teal
-  "#45B7D1", // cyan
-  "#4361EE", // blue
-  "#7209B7", // purple
-  "#F72585", // magenta
-  "#06D6A0", // mint
-  "#FF6B35", // coral
-  "#118AB2", // ocean blue
-  "#9B5DE5", // lavender
+  "#E8A54B", // warm amber
+  "#4682AF", // steel blue
+  "#C75D5D", // dusty red
+  "#7B9E6B", // sage green
+  "#9B7EBD", // muted lavender
+  "#5A9EC0", // soft blue
+  "#D4853D", // copper orange
+  "#6B8FA3", // slate blue
+  "#C4956A", // caramel
+  "#5D8A66", // forest green
+  "#B07AA1", // mauve
+  "#3A7E9A", // deep blue
 ];
 
 export const LAYOUT_CONFIG: LayoutConfig = {
-  lineWidth: 4,
+  lineWidth: 1,
   lineGap: 4,
   cellGap: 4,
-  cellHeight: 64,
+  cellHeight: 44,
   rowGap: 8,
   cornerRadius: 8,
 };
 
 export const DAG_CONFIG = {
-  cellWidth: 120,
-  cellHeight: 64,
+  cellWidth: 128,
+  cellHeight: 44,
   horizontalGap: 24,
   verticalGap: 48,
-  lineWidth: 4,
+  lineWidth: 1,
   lineGap: 4,
   cornerRadius: 8,
   stubLength: 8,
@@ -37,8 +37,7 @@ export const DAG_CONFIG = {
 };
 
 export const LIST_CONFIG = {
-  cellWidth: 300,
-  cellHeight: 64,
-  rowGap: 8,
+  cellWidth: 220,
+  cellHeight: 44,
+  rowGap: 4,
 };
-
