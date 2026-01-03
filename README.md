@@ -2,4 +2,7 @@
 
 We often shy away from using DAGs because they aren't easy to show flatly without losing information. This is an attempt to address that with a focus mode to see immediate connections.
 
-<video src="public/readmevid.mov" controls width="100%"></video>
+![List view](public/list.png)
+![DAG view](public/dag.png)
+
+[Watch the demo](public/readme.mov)
